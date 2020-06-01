@@ -1,2 +1,2 @@
 # ViewJs
-Ehen the element appears on the screen starts the animation
+When the element appears on the screen starts the animation
