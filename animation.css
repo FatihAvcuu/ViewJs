@@ -1,0 +1,50 @@
+.fade-1{
+    animation: fade 1s forwards;
+}
+.fade-2{
+    animation: fade 2s forwards;
+}
+.fade-3{
+    animation: fade 3s forwards;
+}
+.fade-4{
+    animation: fade 4s forwards;
+}
+.fade-5{
+    animation: fade 5s forwards;
+}
+
+.upDown-1{
+    animation: upDown 1s forwards;
+}
+.upDown-2{
+    animation: upDown 2s forwards;
+}
+.upDown-3{
+    animation: upDown 3s forwards;
+}
+
+.downUp-1{
+    animation: downUp 1s forwards;
+}
+.downUp-2{
+    animation: downUp 2s forwards;
+}
+.downUp-3{
+    animation: downUp 3s forwards;
+}
+
+@keyframes fade {
+    0%   { opacity: 0; }
+    100%  { opacity: 1;}
+}
+
+@keyframes upDown {
+    0%   { margin-top: 20px;opacity: 0; }
+    100%  { margin-top: 0px;opacity: 1;}
+}
+
+@keyframes downUp {
+    0%   { margin-top: 0px;opacity: 0; }
+    100%  { margin-top: 20px;opacity: 1;}
+}
